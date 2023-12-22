@@ -1,0 +1,56 @@
+@use "../../assets/variables.scss" as var;
+
+.container {
+  position: relative;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.content {
+  position: absolute;
+  top: -50px;
+  left: -195px;
+  padding: 6px;
+  width: 200px;
+  z-index: 1;
+  border: 1px var.$border-color-gray solid;
+  border-radius: 10px;
+  background-color: var.$background-color-white;
+  box-shadow: var.$block-shadow;
+
+  .item {
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 2px 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s;
+  }
+
+  .item:hover {
+    background-color: var.$background-color-blue;
+  }
+}
+
+.button {
+  position: relative;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  transition: background-color 0.2s;
+  border-radius: 8px;
+}
+
+.button svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button:hover {
+  background-color: var.$background-color-blue;
+}

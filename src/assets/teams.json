@@ -1,0 +1,26 @@
+[
+  {
+    "id": "744e5cee-9f4e-11ee-8c90-0242ac120002",
+    "name": "New Team 1",
+    "created": "2023-12-20T15:46:18.220Z",
+    "ownerId": "",
+    "membersCount": 0,
+    "members": []
+  },
+  {
+    "id": "8b4b467c-0fa9-4e54-8089-6f3ecc41ee58",
+    "name": "Test Team",
+    "created": "2022-10-22T15:46:18.220Z",
+    "ownerId": "",
+    "membersCount": 0,
+    "members": []
+  },
+  {
+    "id": "3921d71c-9f77-11ee-8c90-0242ac120002",
+    "name": "The Best Team",
+    "created": "2023-07-10T15:46:18.220Z",
+    "ownerId": "",
+    "membersCount": 0,
+    "members": []
+  }
+]

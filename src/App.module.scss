@@ -1,0 +1,22 @@
+@use "./assets/variables.scss" as var;
+
+.header {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  border-radius: 12px;
+  border: 1px var.$border-color-gray solid;
+  background-color: var.$background-color-white;
+  padding: 25px;
+  box-shadow: var.$block-shadow;
+}
+
+.error {
+  background-color: rgb(255, 176, 176);
+  padding: 10px 8px;
+  border-radius: 12px;
+}

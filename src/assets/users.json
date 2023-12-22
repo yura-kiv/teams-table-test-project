@@ -1,0 +1,72 @@
+[
+  {
+    "id": "db37f9de-9f43-11ee-8c90-0242ac120002",
+    "email": "rafael@gmail.com",
+    "name": "Rafael Bush",
+    "avatarSrc": "https://i.pravatar.cc/150?img=1",
+    "accounts": 3
+  },
+  {
+    "id": "db37fd1c-9f43-11ee-8c90-0242ac120002",
+    "email": "olivia@gmail.com",
+    "name": "Olivia Anderson",
+    "avatarSrc": "https://i.pravatar.cc/150?img=2",
+    "accounts": 5
+  },
+  {
+    "id": "db380726-9f43-11ee-8c90-0242ac120002",
+    "email": "zoey@gmail.com",
+    "name": "Zoey Fisher",
+    "avatarSrc": "https://i.pravatar.cc/150?img=6",
+    "accounts": 3
+  },
+  {
+    "id": "db380852-9f43-11ee-8c90-0242ac120002",
+    "email": "caleb@gmail.com",
+    "name": "Caleb Graham",
+    "avatarSrc": "https://i.pravatar.cc/150?img=7",
+    "accounts": 2
+  },
+  {
+    "id": "db380974-9f43-11ee-8c90-0242ac120002",
+    "email": "isabella@gmail.com",
+    "name": "Isabella Hill",
+    "avatarSrc": "https://i.pravatar.cc/150?img=8",
+    "accounts": 5
+  },
+  {
+    "id": "db380c4e-9f43-11ee-8c90-0242ac120002",
+    "email": "jackson@gmail.com",
+    "name": "Jackson Irwin",
+    "avatarSrc": "https://i.pravatar.cc/150?img=9",
+    "accounts": 1
+  },
+  {
+    "id": "db37fe84-9f43-11ee-8c90-0242ac120002",
+    "email": "nathan@gmail.com",
+    "name": "Nathan Clark",
+    "avatarSrc": "https://i.pravatar.cc/150?img=3",
+    "accounts": 2
+  },
+  {
+    "id": "db37ffd8-9f43-11ee-8c90-0242ac120002",
+    "email": "sophia@gmail.com",
+    "name": "Sophia Davis",
+    "avatarSrc": "https://i.pravatar.cc/150?img=4",
+    "accounts": 4
+  },
+  {
+    "id": "db380136-9f43-11ee-8c90-0242ac120002",
+    "email": "liam@gmail.com",
+    "name": "Liam Evans",
+    "avatarSrc": "https://i.pravatar.cc/150?img=5",
+    "accounts": 1
+  },
+  {
+    "id": "db380d98-9f43-11ee-8c90-0242ac120002",
+    "email": "hazel@gmail.com",
+    "name": "Hazel Jones",
+    "avatarSrc": "https://i.pravatar.cc/150?img=10",
+    "accounts": 4
+  }
+]

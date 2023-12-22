@@ -1,0 +1,47 @@
+@use "../../assets/variables.scss" as var;
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(13, 15, 23, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #fff;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  margin: 0px 20px;
+  border: 1px var.$border-color-gray solid;
+  border-radius: 10px;
+  background-color: var.$background-color-white;
+  box-shadow: var.$block-shadow;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.content {
+}

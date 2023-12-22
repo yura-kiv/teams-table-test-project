@@ -1,0 +1,118 @@
+@use "../../assets/variables.scss" as var;
+
+.wrapper {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0px 10px;
+}
+
+.head {
+}
+
+.headRow {
+}
+
+.headCell {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var.$text-gray-color;
+  text-align: left;
+  padding: 10px;
+  user-select: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.bodyRow {
+  &.open {
+    & .bodyCell:first-child {
+      background-color: var.$background-color-blue;
+      border-radius: 12px 0px 0px 0px;
+    }
+
+    & .bodyCell:last-child {
+      background-color: var.$background-color-blue;
+      border-radius: 0px 12px 0px 0px;
+    }
+  }
+
+  &.closed {
+    & .bodyCell {
+      padding: 10px;
+    }
+
+    & .bodyCell:first-child {
+      background-color: var.$background-color-blue;
+      border-radius: 12px 0px 0px 12px;
+    }
+
+    & .bodyCell:last-child {
+      background-color: var.$background-color-blue;
+      border-radius: 0px 12px 12px 0px;
+    }
+  }
+}
+
+.bodyCell {
+  background-color: var.$background-color-blue;
+  padding: 10px 10px 0px 10px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.teamCell {
+  position: relative;
+  background-color: var.$background-color-blue;
+  border-radius: 0px 0px 12px 12px;
+  padding: 0px 20px 20px 20px;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: var.$background-color-blue;
+  }
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var.$background-color-blue;
+  transition: background-color 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: var.$element-background-color-blue;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border-radius: 11px;
+  margin-left: 20px;
+}
+
+.tagOwner {
+  background-color: var.$element-background-color-blue;
+  color: var.$text-blue-color;
+}
+
+.tagMember {
+  background-color: var.$element-background-color-gray;
+}

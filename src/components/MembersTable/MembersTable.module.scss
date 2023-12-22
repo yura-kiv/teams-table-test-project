@@ -1,0 +1,77 @@
+@use "../../assets/variables.scss" as var;
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: var.$background-color-white;
+  border-radius: 10px;
+  box-shadow: var.$block-shadow;
+}
+
+.head {
+}
+
+.headRow {
+}
+
+.headCell {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var.$text-gray-color;
+  text-align: left;
+  padding: 10px 15px;
+  border-bottom: 1px var.$border-color-gray solid;
+  cursor: pointer;
+  user-select: none;
+}
+
+.body {
+  font-size: 0.9rem;
+}
+
+.bodyRow {
+  border-bottom: 1px var.$border-color-gray solid;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.bodyCell {
+  padding: 10px 15px;
+}
+
+.informationContainer {
+  display: grid;
+  grid-template-columns: 50px auto;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 2px var.$border-color-gray solid;
+}
+
+.name {
+  display: block;
+  grid-area: "name";
+  grid-column-start: 2;
+  font-size: 1rem;
+}
+
+.email {
+  display: block;
+  grid-area: "email";
+  grid-column-start: 2;
+  color: var.$text-gray-color;
+}
+
+.email,
+.name {
+  margin-left: 10px;
+}
