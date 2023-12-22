@@ -35,18 +35,18 @@ Demo: https://yura-kiv.github.io/teams-table-test-project/
 При створенні форм я використовував yup та formik для валідації даних.
 
 Форма для створення команди з мультиселектом.
-![modal window - create team](./imgsREADME/img1.png)
+![](./imgsREADME/img1.png)
 Форма для творення команди з мультиселектом.
 
 Форма для запрошення користувачів.
-![modal window - create team](./imgsREADME/img2.png)
+![](./imgsREADME/img2.png)
 
 ### Dropdown
 
 Для Dropdown було створено окремий перевикористовуваний компонент.
-![modal window - create team](./imgsREADME/img3.png)
+![](./imgsREADME/img3.png)
 
 ### Видалення користувача
 
 При видаленні користувача з команди виконується перевірка на те чи не видаляє користувач (авторизований) сам себе, якщо так то він виходить з команди.
-![modal window - create team](./imgsREADME/img4.png)
+![](./imgsREADME/img4.png)
