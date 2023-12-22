@@ -77,7 +77,7 @@ const TeamForm: React.FC<TeamFormProps> = ({ onSubmit, owner, users }) => {
                           name={`members.${user.id}`}
                           value={user.id}
                           checked={values.members.some((member) => member === user.id)}
-                          onChange={(e) => {
+                          onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                             const isChecked = e.target.checked;
                             if (isChecked) {
                               push(user.id);
